@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>   <!--The Root Element-->
+
+
+<!--The Head Section-->
+    <head>
+
+        <title>Warner Bros</title>
+            
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--Bootstrap-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--The External Style Sheet link-->
+        <link rel="stylesheet" href="MyStyles.css">
+        
+
+        <!--The CSS Styling-->
+
+        
+        <style>
+          /* CSS styling for the form */
+          body {
+            font-family: Arial, sans-serif;
+             background-color: #fff;
+            }
+
+          fieldset {
+            border: none;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+button[type="submit"], button[type="reset"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #fff;
+}
+        </style>
+
+        <script>
+            const form = document.getElementById('feedback-form');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const surname = document.getElementById('surname').value;
+    const age = document.getElementById('age').value;
+    const email = document.getElementById('email').value;
+    const feedback = document.getElementById('feedback').value;
+
+    // You can add your own logic here to handle the form submission
+    console.log(`Name: ${name}, Surname: ${surname}, Age: ${age}, Email: ${email}, Feedback: ${feedback}`);
+});
+
+        </script>
+
+    </head>
+
+
+
+<!--The Body Section-->
+   <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+
+            <li><img src="IMAGES/warnerlogo.jfif" width="40px" height="40px" alt="Warner Bros Logo"></li>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="MOVIES.html">Movies</a></li>
+            <li><a href="TV Shows.html">TV shows</a></li>
+            <li><a href="GAMES & APPS.html">Games & Apps</a></li>
+            <li><a href="NEWS.html">News</a></li>
+            <li><a href="SHOP.html">Shop</a></li>
+            <li><a href="BRANDS.html">Brands</a></li>
+            <li><a href="EXPERIENCE.html">Experiences</a></li>
+            <li><a href="FEEDBACK.html">Feedback</a></li>
+            <li><a href="ABOUT.html">About Us</a></li>
+      
+          </ul>
+
+          
+          
+          <form class="form-inline my-2 my-lg-0">
+            <label for="search-input" class="sr-only">Search</label>
+            <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Explore Our World" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+<!----------=================================================================================================================================-->
+
+<!--The user feedback form-->
+<h2>Give Us Your Thoughts</h2>
+    <form id="feedback-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback"></textarea><br><br>
+        </fieldset>
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="reset">Reset</button>
+    </form>
+
+<!--End Of Feedback form-->
+
+<!--the footer section-->
+   
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="https://www.facebook.com/warnerbrosent/"><img src="IMAGES/Facebook.jpg" width="40px" height="40px" alt="Facebook"></a>
+        <a href="https://twitter.com/Warnerbros/"><img src="IMAGES/Xlogo.jfif" width="40px" height="40px" alt="X"></a>
+        <a href="https://www.instagram.com/warnerbrosentertainment/"><img src="IMAGES/InstagramLogo.jfif" width="40px" height="40px" alt="Instagram"></a>
+        <a href="https://www.youtube.com/user/WarnerBrosPictures"><img src="IMAGES/YouTube.jfif" width="40px" height="40px" alt="YouTube"></a> 
+    </div>
+  
+ 
+    <div class="row">
+      <ul>
+          <li><a href="CONTACT.html">Contact us</a></li>
+          <li><a href="HOME.html">Our Services</a></li>
+          <li><a href="PRIVACY POLICY.html">Privacy Policy</a></li>
+          <li><a href="TERMS AND CONDITIONS.html">Terms & Conditions</a></li>
+          <li><a href="REVIEW.html">Review</a></li>
+      </ul>
+    </div>
+  
+      <div class="row">
+            <img src="IMAGES/warnerlogo.jfif" width="40px" height="40px">TM & © 2024 Warner Bros. Entertainment Inc. Warner Bros and its related entities. - All rights reserved || Designed By: Shadrack 
+      </div>
+    </div>
+  </footer>
+
+
+</html>
+

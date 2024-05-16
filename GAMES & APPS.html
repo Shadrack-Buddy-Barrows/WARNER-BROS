@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>   <!--The Root Element-->
+
+
+<!--The Head Section-->
+    <head>
+
+        <title>Warner Bros</title>
+            
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--Bootstrap-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--The External Style Sheet link-->
+        <link rel="stylesheet" href="MyStyles.css">
+        <!---->
+        <!--Meta tag to make my website responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+        <style>
+          /*The Game Poster Styling*/
+        
+          .movie-posters {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          grid-gap: 20px;
+          }
+        
+        .movie-poster {
+          text-align: center;
+          border: 1px solid #000;
+          margin-bottom: 10px;
+          }
+        
+        .movie-poster img {
+          width: 320px;
+          height: 500px;
+          border-radius: 15px;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          }
+        
+        .movie-poster figcaption {
+          font-size: 1.2em;
+          font-weight: bold;
+          margin-top: 10px;
+          }
+          h3{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: left;
+          }
+          h1, h2, h3 {
+            font-family: 'Brush Script', sans-serif;
+            font-size: 24px;
+            color: #000;
+            border-left: 2px solid #000 ;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            border-spacing: 5px;
+            text-transform: uppercase;
+            text-decoration: solid;
+
+          }
+          button {
+          margin-bottom: 20px;
+          border-radius: 4px;
+          color: #000;
+          background-color: #fff;
+          box-shadow: 10px;
+        }
+        .trailer-button {
+          background-color: #000;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+          </style>
+
+    </head>
+
+
+
+<!--The Body Section-->
+   <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+
+            <li><img src="IMAGES/warnerlogo.jfif" width="40px" height="40px" alt="Warner Bros Logo"></li>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="MOVIES.html">Movies</a></li>
+            <li><a href="TV Shows.html">TV shows</a></li>
+            <li><a href="GAMES & APPS.html">Games & Apps</a></li>
+            <li><a href="NEWS.html">News</a></li>
+            <li><a href="SHOP.html">Shop</a></li>
+            <li><a href="BRANDS.html">Brands</a></li>
+            <li><a href="EXPERIENCE.html">Experiences</a></li>
+            <li><a href="FEEDBACK.html">Feedback</a></li>
+            <li><a href="ABOUT.html">About Us</a></li>
+      
+          </ul>
+
+          
+          
+          <form class="form-inline my-2 my-lg-0">
+            <label for="search-input" class="sr-only">Search</label>
+            <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Explore Our World" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+<!-----------------The Main Content Section----------------------->
+
+<h3>Embrace The Inner Gamer In Your</h3>
+<div class="movie-posters">
+  <figure class="movie-poster">
+    <img src="IMAGES/WatchDogs.jfif"  alt="Movie 1">
+    <figcaption>WatchDogs</figcaption>
+    <p>Drama , Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+
+  </figure>
+  <figure class="movie-poster">
+    <img src="IMAGES/Avatar.jfif" alt="Movie 2">
+    <figcaption>Avatar</figcaption>
+    <p>Sci-Fi , Action</p><p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+  <figure class="movie-poster">
+    <img src="IMAGES/Sonic4.jfif" alt="Movie 3">
+    <figcaption>Sonic</figcaption>
+    <p>Sci-Fi , Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+  <figure class="movie-poster">
+    <img src="IMAGES/Subway.jfif" alt="Movie 4">
+    <figcaption>Subway Surfers</figcaption>
+    <p>Adventure , Action , Speed</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+</div>
+
+<h3>Feel The Speed</h3>
+<div class="movie-posters">
+  <figure class="movie-poster">
+    <img src="IMAGES/Valorent.jfif" alt="Movie 1">
+    <figcaption>Valorent</figcaption>
+    <p>Sci-Fi , Adventure ,Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+  <figure class="movie-poster">
+    <img src="IMAGES/SpiderMan.jfif" alt="Movie 2">
+    <figcaption>Spider-Man</figcaption>
+    <p>Thriller , Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+  <figure class="movie-poster">
+    <img src="IMAGES/BlackOps.jfif" alt="Movie 3">
+    <figcaption>Call Of Duty:Black Ops</figcaption>
+    <p>Sci-Fi , Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+
+  <figure class="movie-poster">
+    <img src="IMAGES/GearsOfWar.jfif" alt="Movie 4">
+    <figcaption>Gears Of War</figcaption>
+    <p>Sci-Fi, Adventure ,Action</p>
+    <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+  </figure>
+</div>
+
+<h3>Embrace the Octane and nitro</h3>
+<div class="movie-posters">
+<figure class="movie-poster">
+  <img src="IMAGES/Sonic.jfif" alt="Movie 1">
+  <figcaption>Sonic</figcaption>
+  <p>Sci-Fi , Adventure ,Action</p>
+  <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+</figure>
+
+<figure class="movie-poster">
+  <img src="IMAGES/NFSHeat.jfif" alt="Movie 2">
+  <figcaption>Need Of Speed:Heat</figcaption>
+  <p>Racing , Action</p>
+  <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+</figure>
+
+<figure class="movie-poster">
+  <img src="IMAGES/NeedForSpeed.jfif" alt="Movie 3">
+  <figcaption>Need for Speed</figcaption>
+  <p>Racing , Action</p>
+  <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+</figure>
+
+<figure class="movie-poster">
+  <img src="IMAGES/Sonic3.jfif" alt="Movie 4">
+  <figcaption>Sonic |||</figcaption>
+  <p>Sci-Fi, Adventure ,Speed</p>
+  <p>$15.99</p>
+    <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer"><button class="trailer-button">Buy/Rent</button></a>
+</figure>
+
+</div>
+
+
+
+
+
+<!-----------------End Of The Main Content Section----------------------->
+       
+
+
+<!--the footer section-->
+   
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="https://www.facebook.com/warnerbrosent/"><img src="IMAGES/Facebook.jpg" width="40px" height="40px" alt="Facebook"></a>
+        <a href="https://twitter.com/Warnerbros/"><img src="IMAGES/Xlogo.jfif" width="40px" height="40px" alt="X"></a>
+        <a href="https://www.instagram.com/warnerbrosentertainment/"><img src="IMAGES/InstagramLogo.jfif" width="40px" height="40px" alt="Instagram"></a>
+        <a href="https://www.youtube.com/user/WarnerBrosPictures"><img src="IMAGES/YouTube.jfif" width="40px" height="40px" alt="YouTube"></a> 
+    </div>
+  
+ 
+    <div class="row">
+      <ul>
+          <li><a href="CONTACT.html">Contact us</a></li>
+          <li><a href="HOME.html">Our Services</a></li>
+          <li><a href="PRIVACY POLICY.html">Privacy Policy</a></li>
+          <li><a href="TERMS AND CONDITIONS.html">Terms & Conditions</a></li>
+          <li><a href="REVIEW.html">Review</a></li>
+      </ul>
+    </div>
+  
+      <div class="row">
+            <img src="IMAGES/warnerlogo.jfif" width="40px" height="40px">TM & © 2024 Warner Bros. Entertainment Inc. Warner Bros and its related entities. - All rights reserved || Designed By: Shadrack 
+      </div>
+    </div>
+  </footer>
+
+
+</html>
+
